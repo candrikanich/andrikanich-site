@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+#wrapper {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-top: 150px;
+}
+body {
+	background-color: #49638D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-image: url(../i/coming-soon.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#share {
+	text-align: center;
+	color: #10213D;
+	background-position: 200px;
+}
+img {
+}
+a {
+	color: #10213D;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}

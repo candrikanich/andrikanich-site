@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* ==============================================================
+
+Chris Andrikanich
+Copyright 2010
+written for - www.andrikanich.com/schumacher/
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+swatch colors
+=============
+
+
+================================================================ */
+
+@import url("http://www.grayco.com/css/reset.css");
+
+/* ============================================================= */
+
+body {
+    background: url(i/wood.jpg) repeat;
+    font-size: 62.5%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #000;
+}
+p { font-size: 1.1em;}
+h1 { 
+	font-size: 4.8em;
+	font-weight: bold;
+}
+h2 { font-size: 3.0em;}
+h1, h2 {
+	color: #fff;
+	text-shadow: #000 0 1px 1px;
+}
+h3 { 
+	font-size: 2.0em;
+	text-align: left;
+	padding: 40px 0 0 0;
+	color:#333333;
+	text-shadow: #fff 0 1px 1px;
+	font-weight: bold;
+}
+h4 { 
+	letter-spacing: -5px;
+	font-size: 9.0em;
+	text-align: center;
+	font-weight: bold;
+	padding: 30px 0;
+	clear: left;
+	text-shadow: 3px 1px 1px #999999;
+	color: #990000;
+	}
+h5 { 
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 20px 0 8px 0;
+	display: inline;
+}
+h6 { 
+	font-size: 1.0em;
+	padding: 15px 0 0 0;
+}
+#scores h6 {
+	display: block;
+	padding: 0 70px 0 25px;
+	font-style: italic;
+}
+a:link, a:visited {
+	color: #ccc;
+	text-decoration: none;
+}
+a:hover {
+	color: #ccc;
+	text-decoration: underline;
+}
+a:active {
+	color: #ccc;
+	text-decoration: none;
+}
+a:focus {
+	color: #ccc;
+	text-decoration: underline;
+}
+#wrapper {
+	width: 960px;
+	margin: 20px auto;
+}
+.clear {
+	clear: both;
+	font-size: 1.0em;
+	font-style: italic;
+	color: #666;
+	text-align: center;
+}
+/* =============================================================
+   HEADER
+   ============================================================= */
+
+#header {
+	background: url(i/beach-volleyball-net.jpg) no-repeat;
+	height: 80px;
+	padding: 40px;
+	-moz-border-radius-topleft: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	-webkit-border-top-right-radius: 20px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+
+/* =============================================================
+   CONTENT
+   ============================================================= */
+
+#content {
+	background-color: #e6e6e6;
+	padding: 20px 40px;
+	border: 1px solid #ccc;
+}
+#scores {
+	padding: 20px 100px 10px;
+	background-color: #fff;
+	margin: 20px 0 0 0;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border: 1px solid #666;
+}
+#scores img {
+	width: 100px;
+	margin: 15px 15px 0 20px;
+	float: left;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	-moz-box-shadow: 3px 3px 4px #666;
+	-webkit-box-shadow: 3px 3px 4px #666;
+	box-shadow: 3px 3px 4px #666;
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+}
+#winner, #loser {
+	float: left;
+	width: 247px;
+	background: url(i/notepad01.jpg) no-repeat;
+	height: 402px;
+	padding: 0 20px 0 0;
+}
+#winner {
+	margin: 0 142px 0 0;
+}
+#winner p, #loser p {
+	text-align: center;
+	margin: 40px 0 0 0;
+}
+#extra {
+	padding: 15px;
+	background-color: #c9cb72;
+	margin: 0 0 10px 10px;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border: 1px solid #666;
+	text-align: center;
+	width: 150px;
+	float: right;
+	font-size: 1.2em;
+}
+ul {
+	margin: 0 0 20px 0;
+	padding: 0 20px;
+}
+li {
+	font-size: 1.2em;
+	color:#333333;
+	text-shadow: #fff 0 1px 1px;
+	display: block;
+	margin: 15px 0;
+	line-height: 1.2em;
+}
+span {
+	font-weight: bold;
+	color: green;
+}
+table {
+	width: 840px;
+	margin: 40px auto;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	font-size: 1.1em;
+	-moz-box-shadow: 3px 3px 4px #808080;
+	-webkit-box-shadow: 3px 3px 4px #808080;
+	box-shadow: 3px 3px 4px #808080;
+}
+td {
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
+.team {
+	background-color: #00de00;
+}
+.sub {
+	background-color: cyan;
+}
+.team, .sub {
+	width: 45px;
+}
+tr.total td, tr.header1 td {
+	background-color: #999;
+	font-weight: bold;
+	text-shadow: #808080 0 1px 1px;
+	color: #333;
+	font-size: 1.2em;
+}
+tr.header td {
+	font-weight: bold;
+}
+.schu {
+	font-weight: bold;
+	color: #900000;
+	background-color: #ed87f3;
+}
+tr.header1 td span {
+	color: #e6e6e6;
+}
+/* ============================================================= 
+   FOOTER
+   ============================================================= */
+
+#footer {
+	height: 40px;
+	background-color: #333;
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	color: #ccc;
+	text-align: center;
+	border: 1px solid #ccc;
+}

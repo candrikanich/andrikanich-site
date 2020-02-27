@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello, My name is Chris W. Andrikanich</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+		<!-- MY CUSTOM STYLES -->
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Bungee+Shade|Harmattan|Montserrat|Nunito" rel="stylesheet">
+		<script src="site.js"></script>
+		
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '503785306478110',
+		      xfbml      : true,
+		      version    : 'v2.7'
+		    });
+		  };
+		
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
+	
+	</head>
+	
+	<body>
+		
+		<!-- PAGE HEADER -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		      </button>
+		      <a class="navbar-brand" href="#myStory">Chris Andrikanich</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li data-toggle="collapse" data-target=".navbar-collapse" class="myStory active">
+		        	<a id="btn-showMyStory" href="#myStory">
+			        	<span class="glyphicon glyphicon-bullhorn"></span> My Story</a>
+			    </li>
+		        <li data-toggle="collapse" data-target=".navbar-collapse" class="myResume"><a id="btn-showMyResume" href="#myResume"><span class="glyphicon glyphicon-list-alt"></span> My Resume</a></li>
+		        <li data-toggle="collapse" data-target=".navbar-collapse" class="myProjects"><a id="btn-showMyProjects" href="#myProjects"><span class="glyphicon glyphicon-folder-open"></span> My Projects</a></li> 
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li data-toggle="collapse" data-target=".navbar-collapse"><a href="mailto:chris@andrikanich.com"><span class="glyphicon glyphicon-user"></span> Email Me</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		
+		<!-- MY STORY SECTION -->
+		<section id="myStory" class="container mainView">
+			<div class="row">
+				<header class="col-md-12 jumbotron">
+					<h2>My Story</h2>
+					<h3>Get to know more about me...</h3>
+				</header>
+			</div>
+			<div class="row">
+				<aside class="col-md-4 hidden-xs">
+					<div class="twitter">
+						<a class="twitter-timeline" data-width="500" data-height="400" href="https://twitter.com/alphabet">Tweets by alphabet</a>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>					
+					</div>
+				</aside>
+				<article class="col-md-8">
+					<img src="i/cwa.jpg" class="img-rounded img-responsive" alt="Chris Andrikanich" />
+					<p>For over 18 years, I taught myself HTML and CSS to market Cleveland books by assisting great local authors with their social media and web presence.</p>
+
+					<p>That passion for learning how to code led me to Tech Elevator where I was able to expand my developer skillset and move on to the world of web development.</p>
+
+					<p>Currently, I am a Front-End Developer at Dealer Tire in Cleveland, working on the International Experience team supporting China and Canada.</p>
+
+					<p>When I am not running around with the kids, hanging with my wife, playing volleyball, or enjoying a locally brewed beer, I am most-likely reading up on HTML, CSS, and Javascript.</p>
+
+					<p>And yes, I am the Cleveland guy who's twitter account is the same name as Google's parent company: @alphabet.</p>
+					
+					<p>Shoot me a message, if you want a team player who is willing to learn, wants to be creative and try new things.</p>
+
+				</article>
+			</div>
+		</section>
+		
+		<!-- MY RESUME SECTION -->
+		<section id="myResume" class="container mainView">
+			<div class="row">
+				<header class="col-md-12 jumbotron">
+					<h2>My Resume</h2>
+					<h3>Learn more about my experience...</h3>
+				</header>
+			</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<article class="col-md-10">
+					<h4>Objective</h4>
+					<p>As a Front-End Developer, my passion for semantic HTML & CSS pushes myself to learn more, to work with my team to create high-quality code and to continuously enhance my skillset. My experience with taking someone else's vision and translating it to good usable code makes me a great fit for your team.</p>
+					<h4>Experience</h4>
+
+						<!-- DEALER TIRE -->
+						<h5>Dealer Tire, LLC, Web Developer, Cleveland, OH &mdash; 2016-Present</h5>
+						<ul>
+							<li>Coordinated with team to launch Dealer Tire China by designing & skinning Porsche dealership web site</li>
+							<li>Support web applications and branding updates for US and Canadian dealership websites</li>
+							<li>Led project to move Online Tire Store application to Nissan & Infiniti Canada dealerships</li>
+						</ul>
+
+						<!-- TEALS -->
+						<h5>TEALS, Volunteer Teaching Assistant, Cleveland, OH &mdash; 2018-Present</h5>
+						<ul>
+							<li>Assisted Campus International High School teacher with the Intro to Computer Science curriculum</li>
+							<li>Help students understand basic Computer Science concepts using Snap and Python programming languages</li>
+						</ul>
+
+						<!-- TECH ELEVATOR-->
+						<h5>Tech Elevator, Student: Java Cohort, Cleveland, OH &mdash; 2016-Present</h5>
+						<ul>
+							<li>Java Language Fundamentals: variables, data types, loops, conditional statements, exception handling, collections framework, I/O</li>
+							<li>Object Oriented Programming: classes and objects, interfaces, access modifiers, packages, the Java classpath, class modeling, encapsulation, inheritance, and polymorphism, UML class diagrams</li>
+							<li>Web Application Development: HTML, CSS, Javascript, Servlets, JSP, Spring Web MVC, Tomcat</li>
+							<li>Database Programming: JDBC, JPA (Hibernate), table design and creation, SQL queries and DML, PostgreSQL, E/R diagrams</li>
+							<li>Development tools and techniques: unit testing (JUnit), TDD, unix command line navigation, Git, Eclipse</li>
+						</ul>
+
+						<!-- GRAY & COMPANY -->
+						<h5>Gray & Company, Publishers, Digital Marketing, Cleveland, OH &mdash; 1998-2016</h5>
+						<ul>
+							<li>Built and designed company web site using HTML, CSS, and FileMaker databases, also managed and maintained updates, fixes, and feature requests via Coda</li>
+							<li>Organized and designed promotional materials, coordinated and scheduled events, and managed book sales partnerships for appearances for 40+ authors</li>
+							<li>Crafted content, designed assets, and implemented social media campaigns on Facebook and Twitter in conjunction with product releases, special offers, and timely content</li>
+							<li>Planned, managed, and researched office logistics for 6 full-time and part-time employees</li>
+						</ul>
+
+						<!-- BURNING RIVER SPORTS -->
+						<h5>Burning River Sports, Co-owner, Cleveland, OH &mdash; 2002-2005</h5>
+						<ul>
+							<li>Built, managed and maintained company web site using HTML and CSS</li>
+							<li>Organized, scheduled, and coordinated dozens of local social and sport events in Greater Cleveland</li>
+							<li>Designed marketing materials and promotional giveaways using Adobe InDesign</li>
+						</ul>
+
+						<!-- SIGNATURES -->
+						<h5>Signatures Network, Merchandising Assistant, San Francisco, CA &mdash; 2005-2009</h5>
+						<ul>
+							<li>Assisted with inventory supply and management, venue transactions, and logistics for Coldplay concert tours in the summers of 2006, 2008, and 2009 in the United States and Canada</li>
+						</ul>
+
+					<!-- EDUCATION-->	
+					<h4>Education</h4>
+					<ul>
+						<li>Tech Elevator, Cleveland, OH — Certificate, Expected Aug 2016
+<p>14 week accelerated coursework on Java software language</p>
+</li>
+						<li>Ohio University, Athens, OH — B.A. English, 1998</li>
+					</ul>
+				</article>
+			</div>
+			<div class="col-md-1"></div>
+		</section>
+		
+		<!-- MY PROJECTS SECTION -->
+		<section id="myProjects" class="container mainView">
+			<div class="row">
+				<header  class="col-md-12 jumbotron">
+					<h2>My Projects</h2>
+					<h3>Learn more about what I have created...</h3>
+				</header>
+			</div>
+			<div class="row">
+				<article class="col-md-12">
+					<div class="projectCard">
+						<img src="i/grayco.png" class="img-rounded img-responsive" alt="Gray &amp; Company, Publishers" />
+						<h6>Gray &amp; Company, Publishers</h6>
+						<p>Web Site Design, HTML, CSS</p>
+						<a href="http://www.grayco.com" title="Gray &amp; Company, Publisher web site">www.grayco.com</a>
+					</div>
+					<div class="projectCard">
+						<img src="i/npg-site.png" class="img-rounded img-responsive" alt="National Park Geek Capstone Project" />
+						<h6>National Park Geek (Capstone project)</h6>
+						<p>Web Site Design, HTML, CSS</p>
+						<a href="https://github.com/candrikanich/techElevator-NPG-site" title="National Park Geek Capstone Project">github.com/candrikanich/techElevator-NPG-site</a>
+					</div>
+				</article>
+			</div>
+		</section>
+		
+		<!-- PAGE FOOTER -->
+		<footer class="container-fluid">
+			
+			<div class="row">
+				<div class="col-md-12">
+					<p>See a potential fit? Contact me!</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-xs-2"></div>
+				
+				<div class="col-xs-2">
+					<a href="https://www.linkedin.com/in/chrisandrikanich" title="Chris Andrikanich on LinkedIn">
+					<img src="i/linkedIn.png" class="img-responsive" alt="LinkedIn" />
+					</a>
+				</div>
+				
+				<div class="col-xs-2">
+					<a href="https://www.facebook.com/in/chris.andrikanich" title="Chris Andrikanich on Facebook">
+					<img src="i/facebook.png" class="img-responsive" alt="Facebook" />
+				</div>
+				
+				<div class="col-xs-2">
+					<a href="https://www.twitter.com/alphabet" title="Chris Andrikanich on Twitter">
+					<img src="i/twitter.png" class="img-responsive" alt="Twitter" />
+				</div>
+				
+				<div class="col-xs-2">
+					<a href="mailto:chris@andrikanich.com" title="Email Chris Andrikanich">
+					<img src="i/mail.png" class="img-responsive" alt="Email" />
+				</div>
+				
+				<div class="col-xs-2"></div>
+			
+			</div>
+		</footer>
+	</body>
+</html>
