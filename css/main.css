@@ -1,0 +1,40 @@
+@charset "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #10213D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+#wrapper {
+	width: 800px;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid #ffffff;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#header {
+	background-image: url(../i/andrikanich.front2.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #49638D;
+	height: 65px;
+}
+#navigation {
+	height: 30px;
+	padding: 10px;
+}
+#mainContent {
+	padding: 20px;
+	height: 100px;
+}
+#footer {
+	background-color: #49638D;
+	padding: 10px;
+	text-align: center;
+}

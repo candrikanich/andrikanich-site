@@ -1,0 +1,118 @@
+/* IMPORTED CUSTOM FONTS 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Harmattan', sans-serif;
+
+*/
+
+/*
+
+BASE COLOR PALATTE
+
+Headline Blue: #30477A
+Link Green: #479932
+Text Black (80%):
+
+*/
+
+#myResume, #myProjects, #contactMe {
+	display: none;
+}
+
+body {
+	font-family: 'Harmattan', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+a.navbar-brand {
+	font-family: 'Nunito', sans-serif;
+	color: #30477A;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active  {
+	color: #479932; 
+}
+
+span.glyphicon {
+	margin-right: 10px;
+}
+
+section {
+	margin-top: 40px;
+}
+.mainView {margin-top: 48px;}
+
+#myStory img {
+	margin: 20px 0;
+	box-shadow: 2px 2px 3px @gray10;
+}
+
+#myStory .twitter {
+	height: 550px;
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+p {
+	font-size: 1.3em;
+	line-height: 1.25em;
+}
+
+.jumbotron {
+	border: 1px solid @gray10;
+	box-shadow: 0 0 4px #666;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.jumbotron h3 {
+	margin-top: 0;
+	font-size: 1.4em;
+}
+
+h4 {
+	border-top: 1px solid @gray10;
+	padding-top: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#myResume h4:first-child {
+	border: none;
+}
+
+.projectCard {
+	border: 1px solid @gray10;
+	box-shadow: 0 0 3px #666;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.projectCard img {
+	margin: 0 0 20px 0;
+}
+
+.projectCard h6 {
+	font-size: 1.3em;
+}
+
+footer {
+	background-color: #1f1f1f;
+	color: @white;
+	margin: 10px 0 0 0;
+	padding: 10px 0 20px 0;
+	text-align: center;
+}
+
+footer div:first-child {
+	margin: 8px 0;
+	font-weight: bold;
+	font-size: 1.1em;
+}
